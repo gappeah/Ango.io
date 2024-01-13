@@ -290,10 +290,24 @@ transition: 0.25s var(--cubic-out--);
     transition-duration: 0.5s;
 }
 
-.navbar-item:not(:last-child) {margin-block-end: 1%;}
+.navbar-item:not(:last-child) {margin-block-end: 1px solid var(--white_30);}
+
+.navbar-link{
+    color:var(--white);
+    font-size: 2.5rem;
+    font-weight: weights var(--fw-700);
+    padding:12px 30px;
+    transition:var(--transition-1);
+
+}
 
 
 
+.navbar-link:is(:hover, :focus){
+    color:var(--blue-crayola);
+    font-size: 2.5rem;
+    font-weight: weights var(--fw-700);
+    padding:12px 30px;
+    transition:var(--transition-1);
 
-
-
+}
