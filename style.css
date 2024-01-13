@@ -148,7 +148,26 @@ body {background-color: var(--eerie-black-2) ;
 .btn-oultine{
     font-size: var(--fs-6);
     font-weight: var(--fw-500);
+    border:1px solid var(--white);
+    padding: 5px 15px;
+    transition: var(--transition-1);
 }
+
+.btn-outline:is(:hover, :focus) {
+    background-color: var(--blue-crayola);
+    border-color: var(--blue-crayola);
+    
+
+
+
+
+
+
+
+}
+
+
+
 /*---------------*margin-inline: auto;--------------------*\
 
 
