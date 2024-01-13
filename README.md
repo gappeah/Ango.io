@@ -8,7 +8,7 @@
 
 <br />
 
-### Demo Screeshots
+### Demo Screenshots
 
 ![Cryptex Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
@@ -20,24 +20,20 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Cryptex** locally, run this command on your git bash:
+To run **Ango** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/cryptex.git
+sudo git clone https://github.com/gappeah/Ango-Crypto-Exchange.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/cryptex.git
+git clone [https://github.com/gappeah/Ango-Crypto-Exchange.git]
 ```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
 
 ### License
 
-This project is **free to use** and does not contains any license.
+This project is **free to use** and does not contain any license.
