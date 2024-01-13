@@ -124,6 +124,11 @@ body {background-color: var(--eerie-black-2) ;
 
 }
 
+body.active { overflow: hidden;}
+
+
+
+
 ::-webkit-scrollbar{ width:10px; }
 ::-webkit-scrollbar-track { background-color: hsl(220, 4%, 5%); }
 ::-webkit-scrollbar-thumb { background-color: hsl(220, 5%, 20%); }
@@ -303,11 +308,7 @@ transition: 0.25s var(--cubic-out--);
 
 
 
-.navbar-link:is(:hover, :focus){
+.navbar-link:is(:hover, :focus, .active){
     color:var(--blue-crayola);
-    font-size: 2.5rem;
-    font-weight: weights var(--fw-700);
-    padding:12px 30px;
-    transition:var(--transition-1);
 
 }
